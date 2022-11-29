@@ -10,8 +10,7 @@ let [numero, setNumero] = useState(0)
     function diminuir () {
         setNumero(numero - 1)
     }
-
-    return <section>
+    return <section id="contador">
         <h1>Contador</h1>
         <p>{numero}</p>
         <button onClick={diminuir}>Menos</button>
